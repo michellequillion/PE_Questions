@@ -18,7 +18,8 @@ int fib (int n)
 
 int main ()
 {
-	for (int i=1; fib(i)<4000000; i++)
+	int t = 4000000;
+	for (int i=1; fib(i)<t; i++)
 	{
 		if (fib(i)%2==0)
 		{
