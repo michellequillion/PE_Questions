@@ -8,3 +8,4 @@ def multiples (n):
  
 max = 1000
 print (multiples (max))
+raw_input()
