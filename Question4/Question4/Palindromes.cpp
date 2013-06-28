@@ -39,5 +39,5 @@ int main ()
 			}
 		}
 	}
-	cout << largest << endl;
+	cout << largest << endl; // print largest palindrome
 }
