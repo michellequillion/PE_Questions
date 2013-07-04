@@ -10,9 +10,7 @@ bool isPrime ( long number)
 	for (long i=2; i<number; i++)
 	{
 		if (number%i==0)
-		{
 			return false;
-		}
 	}
 	return true;
 }
