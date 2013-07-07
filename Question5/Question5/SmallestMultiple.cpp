@@ -14,12 +14,13 @@ bool check (int num)
 
 int main ()
 {
-	int number = 1;
+	int number=1;
 	bool result;
 	//loop through all numbers until you get one that is evenly divisible by numbers 1-20
-	do {
+	while (number!=0) {
 		result = check(number);
-		number+=19;
-	} while (result==false);
+		if (result==true)
+			break;
+		number++; }
 	cout << number << endl;
 }
